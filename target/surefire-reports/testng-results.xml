@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-14T14:10:38 CEST" name="Command line suite" finished-at="2023-09-14T14:10:52 CEST" duration-ms="13338">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T14:10:38 CEST" name="Command line test" finished-at="2023-09-14T14:10:52 CEST" duration-ms="13338">
+      <class name="testcases.TestCase2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase2@6631f5ca]" started-at="2023-09-14T14:10:47 CEST" name="setUp" finished-at="2023-09-14T14:10:49 CEST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@6631f5ca]" started-at="2023-09-14T14:10:49 CEST" name="validateTitles" finished-at="2023-09-14T14:10:52 CEST" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase2@6631f5ca]" started-at="2023-09-14T14:10:52 CEST" name="tearDown" finished-at="2023-09-14T14:10:52 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TestCase2 -->
+      <class name="testcases.TestCase1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@1f97cf0d]" started-at="2023-09-14T14:10:38 CEST" name="launchBrowser" finished-at="2023-09-14T14:10:41 CEST" duration-ms="2961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doLogin()[pri:1, instance:testcases.TestCase1@1f97cf0d]" started-at="2023-09-14T14:10:41 CEST" name="doLogin" finished-at="2023-09-14T14:10:44 CEST" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@1f97cf0d]" started-at="2023-09-14T14:10:44 CEST" name="closeBrowser" finished-at="2023-09-14T14:10:44 CEST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@1f97cf0d]" started-at="2023-09-14T14:10:44 CEST" name="launchBrowser" finished-at="2023-09-14T14:10:46 CEST" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doUserReg()[pri:2, instance:testcases.TestCase1@1f97cf0d]" started-at="2023-09-14T14:10:46 CEST" name="doUserReg" finished-at="2023-09-14T14:10:46 CEST" depends-on-methods="testcases.TestCase1.doLogin" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@1f97cf0d]" started-at="2023-09-14T14:10:46 CEST" name="closeBrowser" finished-at="2023-09-14T14:10:47 CEST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TestCase1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
