@@ -41,7 +41,6 @@ public class TestCase2 {
             is = new FileInputStream("C:\\Users\\User\\OneDrive\\Bureaublad\\screenshot.png");
             Assert.assertTrue(expected_title.equals(driver.getTitle()));
         } catch (Throwable e){
-            System.out.println("Test Failed " + e);
          //   File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         //    FileUtils.copyFile(scrFile, new File("C:\\Users\\User\\OneDrive\\Bureaublad\\screenshot.png"));
             Allure.addAttachment("Screenshot",is);
